@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to FreeCodeCamp</h1>
+    </header>
+
+    <main>
+        <% if (user) { %>
+            <p>Welcome, <%= user.name %>!</p>
+            <% } else { %>
+                <p>Please sign in to access the courses.</p>
+                <% } %>
+    </main>
+
+    <footer>
+        <p>Footer content here</p>
+    </footer>
+</body>
+
+</html>
